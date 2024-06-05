@@ -52,11 +52,11 @@ const data = [
   {
     id: 6,
     image: PROJECT6,
-    title: "06. Photo Application",
+    title: "06. Mobile Photo App",
     description:
       "Mobile photo application that allows for storage of photos in albums. Features include tagging photos, user login functionality, and user subsystem for photo management.",
     weblink: "https://github.com/brianhe1/Android45",
-  }
+  },
 ];
 
 const Projects = () => {
