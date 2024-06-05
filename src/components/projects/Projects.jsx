@@ -3,6 +3,8 @@ import PROJECT1 from "../../assets/project-1.jpg";
 import PROJECT2 from "../../assets/project-2.jpg";
 import PROJECT3 from "../../assets/project-3.jpg";
 import PROJECT4 from "../../assets/project-4.jpg";
+import PROJECT5 from "../../assets/project-5.jpg";
+import PROJECT6 from "../../assets/project-6.jpg";
 import "./projects.css";
 
 /* const array of data */
@@ -39,6 +41,22 @@ const data = [
       "Mock website of a restaurant that showcases the restaurant's menu, hours and locations, history, and order menu. Project serves as a practice to web development and its applications.",
     weblink: "https://brianhe1.github.io/restaurant-website/",
   },
+  {
+    id: 5,
+    image: PROJECT5,
+    title: "05. Photo Application",
+    description:
+      "Desktop photo application that allows for storage of photos in albums. Features include tagging photos, user login functionality, admin subsystem, and user subsystem for photo management.",
+    weblink: "https://github.com/brianhe1/Photos45",
+  },
+  {
+    id: 6,
+    image: PROJECT6,
+    title: "06. Photo Application",
+    description:
+      "Mobile photo application that allows for storage of photos in albums. Features include tagging photos, user login functionality, and user subsystem for photo management.",
+    weblink: "https://github.com/brianhe1/Android45",
+  }
 ];
 
 const Projects = () => {
@@ -68,7 +86,7 @@ const Projects = () => {
                       className="link-project-btn"
                       target="_blank"
                     >
-                      Visit Website
+                      Visit Page
                     </a>
                   </div>
                 </div>
