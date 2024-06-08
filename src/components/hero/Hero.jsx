@@ -9,7 +9,7 @@ const Hero = () => {
 
     React.useEffect(() => {
       const typed = new Typed(identities.current, {
-        strings: ['frontend developer.', 'computer engineering graduate.', 'software engineer.'],
+        strings: ['frontend developer.', 'computer engineering graduate.', 'junior software engineer.'],
         typeSpeed: 50,
         backSpeed: 50,
         loop: true,

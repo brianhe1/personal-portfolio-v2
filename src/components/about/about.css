@@ -3,9 +3,11 @@
     height: fit-content;
     background: var(--color-primary-alt);
     display: flex;
+    justify-content: center; /* Centers content horizontally */
     overflow: auto;
     padding: 4rem;
 }
+
 
 .about-me-left {
     display: flex;
@@ -22,6 +24,7 @@
 .about-text {
     padding-bottom: 1.5rem;
     font-weight: 400;
+    font-size: 0.85rem;
 }
 
 .about-me-right {
@@ -42,7 +45,7 @@
     display: flex;
     background-color: var(--color-primary);
     width: 62%;
-    max-width: 450px;
+    max-width: 400px;
     padding: 1rem;
     border-radius: 50px;
     position: relative;
@@ -61,7 +64,7 @@
 }
 
 .spotify-text a {
-    font-size: 0.9rem;
+    font-size: 1rem;
     font-weight: 500;
     text-decoration: none;
     color: var(--color-tertiary);

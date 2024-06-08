@@ -14,7 +14,7 @@ const data = [
     image: PROJECT1,
     title: "01. Tasks with Appa",
     description:
-      "Simple to-do list application to easily manage tasks while enjoying Appa's presence. Enhance productivity of your daily goals with this user-friendly site.",
+      "Simple to-do list application to easily manage tasks, with Appa as your companion. Enhance productivity of your daily goals with this user-friendly site.",
     weblink: "https://brianhe1.github.io/my-to-do-list/",
   },
   {
@@ -30,7 +30,7 @@ const data = [
     image: PROJECT3,
     title: "03. Weather Application",
     description:
-      "Weather application that provides real-time weather updates for any city available on OpenWeatherMap. Project serves as an introduction to Tailwind CSS and API usage.",
+      "Weather application that provides real-time weather updates for any city available on OpenWeatherMap. Project serves as an introduction to Tailwind CSS and integrating external APIs.",
     weblink: "https://brianhe1.github.io/weather-application/",
   },
   {
@@ -54,7 +54,7 @@ const data = [
     image: PROJECT6,
     title: "06. Mobile Photo App",
     description:
-      "Mobile photo application that allows for storage of photos in albums. Features include tagging photos, user login functionality, and user subsystem for photo management.",
+      "Ported Photo Application to work on mobile devices that allows for storage of photos in albums. Features include tagging photos, user login functionality, and user system for photo management.",
     weblink: "https://github.com/brianhe1/Android45",
   },
 ];
@@ -93,6 +93,13 @@ const Projects = () => {
               </article>
             );
           })}
+        </div>
+        <div className="tail-container">
+          <h5>
+            Visit my 
+            <a className="github-link" href="https://github.com/brianhe1" target="_blank"><b> GitHub </b></a>
+            page for more!
+          </h5>
         </div>
       </div>
     </section>
