@@ -38,7 +38,7 @@ const data = [
     image: PROJECT4,
     title: "04. Restaurant Mock Site",
     description:
-      "Mock website of a restaurant that showcases the restaurant's menu, hours and locations, history, and order menu. Project serves as a practice to web development and its applications.",
+      "Mock website of a restaurant that showcases the restaurant's menu, hours and locations, histvory, and order menu. Project serves as a practice to web development and its applications.",
     weblink: "https://brianhe1.github.io/restaurant-website/",
   },
   {
